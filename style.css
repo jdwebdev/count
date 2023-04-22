@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "jpfont";
+    src: url("./fonts/PixelMplus10-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "kyokasho";
+    src: url("./fonts/UDDigiKyokashoN-R-01.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "kyokasho";
+}
+
+body {
+    background-color: rgba(200, 200, 200, 1);
+}
+
+header {
+    background-color:rgba(172,50,50);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    height: 400px;
+}
+
+.settings {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#reset_btn {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    box-shadow: 2px 2px 3px gray;
+    color: black;
+}
+
+#repetition_number {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+    color: black;
+}
+
+#count_btn {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 50px;
+    border: none;
+    text-shadow: 1px 1px 1px gray;
+    box-shadow: 3px 3px 2px gray;
+    color: black;
+}
